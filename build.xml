@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="springdemo">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="E:/software/spring-tool-suite-3.6.4.RELEASE-e4.4.2-win32-x86_64/sts-bundle/sts-3.6.4.RELEASE/"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <path id="spring.userclasspath">
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/commons-logging-1.2.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-aop-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-aop-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-aop-4.1.6.RELEASE-sources.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-aspects-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-aspects-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-aspects-4.1.6.RELEASE-sources.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-beans-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-beans-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-beans-4.1.6.RELEASE-sources.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-context-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-context-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-context-4.1.6.RELEASE-sources.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-context-support-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-context-support-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-context-support-4.1.6.RELEASE-sources.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-core-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-core-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-core-4.1.6.RELEASE-sources.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-expression-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-expression-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-expression-4.1.6.RELEASE-sources.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-instrument-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-instrument-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-instrument-4.1.6.RELEASE-sources.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-instrument-tomcat-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-instrument-tomcat-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-instrument-tomcat-4.1.6.RELEASE-sources.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-jdbc-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-jdbc-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-jdbc-4.1.6.RELEASE-sources.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-jms-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-jms-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-jms-4.1.6.RELEASE-sources.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-messaging-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-messaging-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-messaging-4.1.6.RELEASE-sources.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-orm-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-orm-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-orm-4.1.6.RELEASE-sources.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-oxm-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-oxm-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-oxm-4.1.6.RELEASE-sources.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-test-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-test-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-test-4.1.6.RELEASE-sources.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-tx-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-tx-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-tx-4.1.6.RELEASE-sources.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-web-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-web-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-web-4.1.6.RELEASE-sources.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-webmvc-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-webmvc-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-webmvc-4.1.6.RELEASE-sources.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-webmvc-portlet-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-webmvc-portlet-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-webmvc-portlet-4.1.6.RELEASE-sources.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-websocket-4.1.6.RELEASE.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-websocket-4.1.6.RELEASE-javadoc.jar"/>
+        <pathelement location="E:/software/java files/spring-framework-4.1.6.RELEASE-dist/spring-framework-4.1.6.RELEASE/libs/spring-websocket-4.1.6.RELEASE-sources.jar"/>
+    </path>
+    <path id="springdemo.classpath">
+        <pathelement location="bin"/>
+        <path refid="spring.userclasspath"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin" >
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="springdemo.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="DrawingApp">
+        <java classname="com.tutorial04.beanfactory.DrawingApp" failonerror="true" fork="yes">
+            <classpath refid="springdemo.classpath"/>
+        </java>
+    </target>
+</project>
